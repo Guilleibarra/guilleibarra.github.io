@@ -1,0 +1,211 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+}
+
+header {
+	position: fixed;
+	padding: 5px 0;
+	width: 100%;
+	background-color: rgba(48, 48, 48, 0.5);
+}	
+header nav {
+	float: right;
+
+}
+
+header nav a {
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 2px;
+	padding:  5px 10px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+
+}
+
+header nav a:hover {
+	background-color: #B45F04;
+}
+
+header nav a.active {
+	background: #B45F04;
+	border-radius: 3px;
+}
+
+header h2 {
+	font-size: 20px;
+}
+
+.encabezado {
+	background-color: #41969c;
+	color: white;
+	padding: 90px;
+	
+}
+
+.encabezado img{
+
+	margin-top: 50px;
+	margin-right: 150px;
+	float: right;
+	width: 250px;
+}
+
+.encabezado ul {
+	margin-top: 70px;
+	font-size: 30px;
+	
+
+
+}
+.menu {
+	background-color: black;
+	color: white;
+	
+}
+
+.conocimiento {
+	background-color: white;
+	color: #41969c;
+	text-align: center;
+	padding: 20px;
+
+}
+
+.conocimiento h2{
+	padding: 20px;            
+}
+.conocimiento .box {
+	display: inline-block;
+    text-align: center;
+    width: 19%;
+    padding: 10px;
+    margin-right: 60px;
+}
+
+.titulos {
+	background-color: black;
+	color: white;
+	padding: 60px;
+	text-align: center;
+}
+
+.titulos h1{
+	padding: 20px;
+	color: #41969c;
+
+}
+
+.titulos h2 {
+	margin-top: 60px;
+}
+.experiencia {
+	background-color: #41969c;
+	color: white;
+	padding: 40px;
+	text-align: center;
+}
+ .experiencia h1{
+ 	color: black;
+ 	padding: 20px;
+ }
+
+ .experiencia h2{
+ 	margin-top: 60px;
+ }
+.portafolio {
+
+	background-color: black;
+	color: #41969c;
+	text-align: center;
+	padding: 40px;
+}
+
+.portafolio .box {
+	display: inline-block;
+    text-align: center;
+    width: 20%;
+    padding: 40px;
+}
+
+.portafolio a {
+	color: #41969c;
+	font-weight: bold;
+	text-decoration: none;
+	margin-left: 2px;
+	padding:  5px 10px;
+}
+#contactos {
+	background-color: #303030;
+	background-image: url_('images/interconexion.jpg');
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align: center;
+	padding: 30px;
+}
+
+#contactos h2{
+	color: white;
+}
+
+#contactos input {
+	padding: 20px;
+	width: 400px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+}
+
+#contactos textarea{
+	margin: 20px 0;
+	padding: 20px;
+	width: 400px;
+}
+
+#contactos button {
+	background-color: #fed136;
+	padding: 20px 40px;
+	border-color: #fed136;
+	border-radius: 3px;
+	color: white;
+	font-size: 18px;
+	line-height: 1;
+	font-weight: bold;
+}
+
+
+.social {
+	text-align: center;
+	margin-top: 20px;
+}
+.social a {
+	text-align: center;
+	padding: 5px;
+	margin-left: 20px;
+	color: white;
+	display: inline-block;
+	border-radius: 50%;
+	background-color: black;
+	font-size: 24px;
+	font-weight: bold;
+	height: 50px;
+	width: 50px;
+	line-height: 50px;
+	margin-right: 10px;
+	-webkit-transition: all .3s;
+	-moz-transition: all .3s;
+	transition: all .3s;
+}
+
+.social a:hover {
+	background-color: #fed136;
+}
+
+.container {
+	width: 992px;
+	margin-left: auto;
+	margin-right: auto;
+}
